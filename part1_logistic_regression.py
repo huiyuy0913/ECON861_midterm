@@ -65,7 +65,7 @@ feature_importances = sorted(feature_importances, key = lambda x: x[1],reverse =
 
 
 trials = []
-for w in range(12,32):  
+for w in range(1,32):  
     feature_importances_sub = feature_importances[:w]
     print([i[0] for i in feature_importances_sub])
     dataset_sl = dataset[[i[0] for i in feature_importances_sub]]
