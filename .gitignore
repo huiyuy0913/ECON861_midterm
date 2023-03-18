@@ -3,3 +3,5 @@ new_customers_dataset.csv
 midterm.pdf
 part1_random_forest.py
 test_1.py
+__pycache__
+
